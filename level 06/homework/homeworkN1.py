@@ -1,13 +1,9 @@
-# მომხმარებლისგან რიცხვის შეტანა
-number = int(input("შეიყვანეთ რიცხვი: "))
+number = int(input("enter number: "))
 
-# კენტი რიცხვების ჯამის ინიციალიზაცია
 sum_odd = 0
 
-# for ციკლის გამოყენებით კენტი რიცხვების მოძებნა და ჯამი
 for i in range(1, number + 1):
-    if i % 2 != 0:  # თუ რიცხვი კენტია
+    if i % 2 != 0:
         sum_odd += i
 
-# შედეგის გამოტანა
-print("კენტი რიცხვების ჯამი არის:", sum_odd)
+print("The sum of odd numbers is:", sum_odd)
