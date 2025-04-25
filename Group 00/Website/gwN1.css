@@ -1,0 +1,143 @@
+body {
+  background-color: #050906;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.head {
+  background-color: #368340;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.logotext span {
+  display: block;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.logotext span:last-child {
+  font-size: 0.8em;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-right: 30px;
+}
+
+.nav li {
+  margin-left: 20px;
+}
+
+.nav li:first-child{
+  margin-left: 0;
+  padding-right: -10;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #A0D995;
+}
+
+.goa_h1 h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* .goa_h3 h3 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+} */
+
+.big_center {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.big_center_squares {
+  background-color: #222;
+  border: 2px solid #00c853;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.big_center_squares h3 {
+  color: #00c853;
+  margin-top: 0;
+}
+
+.big_center_squares p {
+  color: #eee;
+}
+
+.mentors-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #050906; /* სურვილისამებრ შეგიძლიათ შეცვალოთ ფონი */
+}
+
+.mentors-section h2 {
+  color: #00c853;
+  margin-bottom: 30px;
+}
+
+.mentors-container {
+  display: flex;
+  justify-content: center; /* ცენტრში განლაგება ჰორიზონტალურად */
+  gap: 20px; /* დაშორება ბარათებს შორის */
+  flex-wrap: wrap; /* თუ ბარათები არ ეტევა გადავა ახალ ხაზზე */
+}
+
+.mentor-card {
+  background-color: #222;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  width: 150px; /* სიგანე */
+}
+
+.mentor-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* მრგვალი ფოტოები */
+  object-fit: cover; /* ფოტო რო პროპორციულად ჩაჯდეს */
+  margin-bottom: 10px;
+}
+
+.mentor-card h3 {
+  color: #00c853;
+  font-size: 1em;
+  margin-top: 0;
+}
