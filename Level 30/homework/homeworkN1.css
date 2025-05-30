@@ -1,0 +1,14 @@
+#nav-bar {
+    background-color: black;
+    padding: 10px;
+    width: 230px;
+    border-radius: 10px;
+}
+
+#nav-button {
+    background-color: green;
+}
+
+#nav-li {
+    color: red;
+}
