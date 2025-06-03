@@ -1,0 +1,27 @@
+#link1 {
+    font-family: sans-serif;
+    color: orange;
+    text-decoration: none;
+    transition: 0, 0, 5;
+    font-size: 50px;
+}
+
+#link1:visited {
+    color: red;
+}
+
+#link1:hover {
+    color: blue;
+}
+
+#link2 {
+    font-family: sans-serif;
+    color: orange;
+    text-decoration: none;
+    transition: 0, 0, 5;
+    font-size: 50px;
+}
+
+#link2:hover {
+    color: blue;
+}
