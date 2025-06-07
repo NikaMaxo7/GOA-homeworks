@@ -1,0 +1,20 @@
+#first {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#second {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#third {
+    background-color: rgb(225, 0, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

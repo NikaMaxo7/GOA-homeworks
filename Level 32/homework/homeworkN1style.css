@@ -1,0 +1,9 @@
+.box2 {
+    background-color: green;
+    border: 5px dashed red;
+    height: 200px;
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 70px;
+    margin-top: 20px;
+}
