@@ -12,7 +12,7 @@ function changeImage(newIndex) {
     index = newIndex;
     imageElement.src = images[index];
     imageElement.style.opacity = 1;
-  }, 300);
+  }, 200);
 }
 
 leftBtn.addEventListener("click", function () {
