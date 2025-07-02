@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .static-box {
+            width: 300px;
+            height: 150px;
+            background-color: lightcoral;
+            margin-bottom: 20px;
+        }
+
+        .relative-box {
+            width: 50%;
+            height: 150px;
+            background-color: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    STATIC UNIT (px)
+    This box has a fixed width of 300 pixels.
+    It always stays the same size, no matter the screen.
+    -->
+
+    <div class="static-box">Static Box (300px width)</div>
+
+    <!-- 
+    RELATIVE UNIT (%)
+    This box is 50% of the width of the screen (or parent element).
+    It changes size when the screen size changes.
+    -->
+
+    <div class="relative-box">Relative Box (50% width)</div>
+
+</body>
+</html>
