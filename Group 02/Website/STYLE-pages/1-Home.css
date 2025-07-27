@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.main-background {
+  background-image: url("../Pictures/background.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.main-background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 900px;
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.logo {
+  width: 160px;
+  cursor: pointer;
+}
+
+.signin-btn {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.signin-btn:hover {
+  background-color: #660207;
+}
+
+                                                                    /* Hero Text */
+.hero-text {
+  text-align: center;
+  margin-top: 220px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 2;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-text h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.hero-text h2 {
+  font-size: 36px;
+  margin-bottom: 35px;
+  color: #e5e5e5;
+}
+
+.hero-text p {
+  font-size: 22px;
+  margin-bottom: 35px;
+  color: #ccc;
+}
+
+                                                                     /* Email */
+
+.email-form {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.email-form input {
+  padding: 18px 20px;
+  width: 380px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 3px 0 0 3px;
+  outline: none;
+  color: black;
+}
+
+.email-form input::placeholder {
+  color: #7c7c7c;
+}
+
+.email-form button {
+  padding: 18px 30px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.email-form button:hover {
+  background-color: #b00710;
+}
+
+                                                                /* Trending Now */
+
+.trending-now {
+  background-color: black;
+  color: white;
+  padding: 60px 20px 40px;
+  text-align: center;
+}
+
+.trending-now h1 {
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+
+.trending-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  scroll-behavior: smooth;
+}
+
+.trending-item {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.trending-item img {
+  width: 190px;
+  height: 285px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease, outline 0.3s ease;
+  transform-origin: center bottom;
+}
+
+.trending-item:hover img {
+  transform: scale(1.02);
+  outline: 2px solid red;
+}
+
+.ranking {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: red;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+                                                                      /* Reasons to Join */
+
+.reasons-to-join {
+  background-color: black;
+  color: white;
+  padding: 60px 20px 60px;
+  text-align: center;
+}
+
+.reasons-to-join h1 {
+  font-size: 42px;
+  margin-bottom: 50px;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.reasons-list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: nowrap;
+}
+
+.reason-card {
+  background: linear-gradient(135deg, #1b1b1b, #2c2c2c);
+  border: 2px solid #e50914;
+  border-radius: 12px;
+  padding: 30px 25px;
+  height: 270px;
+  width: 250px;
+  box-shadow:
+    0 0 10px rgba(red, 0, 13, 0.2),
+    0 0 20px rgba(red, 9, 20, 0.2),
+    0 0 30px rgba(red, 9, 20, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.reason-card:hover {
+  transform: translateY(-12px);
+}
+
+.reason-card h3 {
+  color: #e50914;
+  font-size: 26px;
+  margin-bottom: 60px;
+}
+
+.reason-card p {
+  font-size: 18px;
+  color: #ddd;
+  line-height: 1.5;
+}
+
+                                                                   /* FAQ */
+.faq-section {
+  background-color: black;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.faq-section h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.faq-box {
+  margin: 12px;
+  background-color: #303030;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 18px;
+  width: 100rem;
+  margin-left: 10rem;
+  font-size: 32px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.faq-box:hover {
+  background-color: #444;
+}
+
+.faq-question {
+  padding: 22px 25px;
+  position: relative;
+}
+                                                            /* FOOTER */
+.footer {
+  background-color: black;
+  color: #999;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer a {
+  color: #999;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-links a {
+  margin: 10px 15px;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin-top: 20px;
+  font-size: 13px;
+}
