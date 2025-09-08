@@ -1,0 +1,23 @@
+span {
+    display: inline;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+.div-1 {
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.div-2 {
+    display: block;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.div-3 {
+    display: block;
+    background-color: lightslategrey;
+    padding: 10px;
+}

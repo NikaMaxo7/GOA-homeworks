@@ -1,0 +1,6 @@
+.video-container {
+  width: 80%;
+  aspect-ratio: 16 / 9;
+  background: lightblue;
+  margin: 20px auto;
+}

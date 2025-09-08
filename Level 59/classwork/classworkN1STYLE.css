@@ -1,0 +1,17 @@
+.span-1 {
+    display: inline;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+.span-2 {
+    display: inline;
+    background-color: lightseagreen;
+    padding: 5px;
+}
+
+.span-3 {
+    display: inline;
+    background-color: lightpink;
+    padding: 5px;
+}

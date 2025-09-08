@@ -1,0 +1,17 @@
+.div-1 {
+    width: 100px;
+    aspect-ratio: 1 / 2;
+    background-color: lightgreen;
+}
+
+.div-2 {
+    width: 150px;
+    aspect-ratio: 2 / 1;
+    background-color: lightblue;
+}
+
+.div-3 {
+    width: 200px;
+    aspect-ratio: 1 / 3;
+    background-color: lightcoral;
+}

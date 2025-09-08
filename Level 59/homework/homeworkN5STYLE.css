@@ -1,0 +1,11 @@
+.blockA {
+  width: 100vw;
+  height: 50vh;
+  background: orange;
+}
+
+.blockB {
+  width: 50vw;
+  height: 100vh;
+  background: purple;
+}
